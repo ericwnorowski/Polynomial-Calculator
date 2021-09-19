@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PolyCalc
+comment0.text=\n\ PolyCalc\ Class\ that\ holds\ main\ method\ that\ implements\ a\ text\ interface\ \n\ program\ should\ be\ executed\ when\ the\ program\ is\ run\ with\ java\ PolyCalc\n\ @author\ Eric\ Wnorowski\n\ @version\ 12.2.20\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Main\ method\:\ Prints\ a\ welcome\ message,\ asks\ the\ user\ for\ their\ first\ polynomial\ (must\ be\ in\ proper\ format),\n\ asks\ the\ user\ for\ a\ valid\ operator,\ asks\ the\ user\ for\ their\ second\ valid\ polynomial,execute\ operation\ and\ \n\ display\ the\ result\ (if\ the\ operation\ is\ division\ and\ the\ two\ polynomials\ are\ not\ divisible,\ an\ error\ message\ \n\ should\ be\ printed)\n\ \n\ user\ can\ enter\ quit\ at\ any\ time\ to\ exit\ the\ program\n\n
+comment2.params=
+comment2.target=void\ startCalc()
+comment2.text=\n\ startCalc\ method\ initializes\ the\ program,\ prints\ welcome\ message\ and\ gives\ an\ example\n\ to\ the\ user\ on\ the\ proper\ polynomial\ input\ and\ operator\ symbols\n
+comment3.params=
+comment3.target=Poly\ userPoly()
+comment3.text=\n\ UserPoly\ will\ be\ called\ in\ the\ main\ method\ to\ ask\ the\ user\ for\ either\ the\ first\ or\ second\ polynomial\n\ Ensures\ that\ it\ is\ in\ proper\ format\ and\ will\ be\ executed\ \n\ \n\ @return\ Poly\ the\ polynomial\ the\ user\ inputs\n
+comment4.params=
+comment4.target=java.lang.String\ operator()
+comment4.text=\n\ This\ helper\ method\ asks\ the\ user\ for\ a\ valid\ operator\ and\ once\ one\ is\ give\ it\ will\n\ return\ that\ operator\n\ @returns\ String\ that\ represents\ the\ operator\n
+numComments=5

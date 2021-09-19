@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PolyTest2
+comment0.text=\n\ A\ class\ with\ 5\ additional\ unit\ tests\ for\ the\ Poly\ polynomial\ class.\n\ \n\ We\ recommend\ you\ tackle\ them\ (i.e.\ try\ to\ make\ them\ pass)\ in\ the\ \n\ order\ they\ appear\ in\ this\ file.\n\n\ @author\ \ Eric\ Wnorowski\n\ @version\ 12.4.20\n
+comment1.params=
+comment1.target=void\ test1Add()
+comment1.text=\n\ Tests\ polynomial\ addition.\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ equals().\n
+comment2.params=
+comment2.target=void\ test2Sub()
+comment2.text=\n\ Tests\ polynomial\ subtraction.\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ equals().\n
+comment3.params=
+comment3.target=void\ test3Mul()
+comment3.text=\n\ Tests\ polynomial\ multiplication.\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ equals(),\ add().\ \n
+comment4.params=
+comment4.target=void\ test4Div()
+comment4.text=\n\ Tests\ polynomial\ division.\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ equals(),\ add(),\ multiply().\n
+comment5.params=polyStr\ p
+comment5.target=void\ testToStringHelper(java.lang.String,\ Poly)
+comment5.text=\n\ A\ helper\ method\ to\ check\ wheter\ a\ polynomial's\ toString()\ returns\ a\ string\n\ in\ the\ correct\ format.\n\ \n\ @param\ polyStr\ the\ string\ that\ should\ be\ returned\ by\ polynomial\ toString().\n\ @param\ p\ the\ polynomial\ to\ be\ tested.\n\ @return\ an\ error\ message.\n
+comment6.params=
+comment6.target=void\ test5ToString()
+comment6.text=\n\ Tests\ polynomial\ toString().\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ add(),\ subtract().\n
+numComments=7

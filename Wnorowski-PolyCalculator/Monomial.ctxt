@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Monomial
+comment0.text=\n\ This\ class\ represents\ the\ monomials\ that\ are\ ArrayList\ of\ Polynomials\n\n\ @author\ Eric\ Wnorowski\n\ @version\ 11.29.20\n
+comment1.params=coef\ exp
+comment1.target=Monomial(double,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Monomial\n
+comment2.params=o
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=\n\ Compares\ two\ Monomials\ in\ order\ to\ differentiate\ order\n\ \n\ @param\ Object\ o\ -\ generic\ object\n\ @returns\ boolean\ -\ true\ if\ Monomials\ are\ equal,\ false\ otherwise\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ toString\ for\ the\ monomial\ class,\ helps\ to\ format\ each\ monomial\ properly\n\ \n\ @returns\ String\ -\ Properly\ formatted\ string\ representation\ of\ monomial\n
+comment4.params=o
+comment4.target=int\ compareTo(java.lang.Object)
+comment4.text=\n\ compareTo\ for\ the\ monomial\ class,\ helps\ to\ implement\ Comparable\n\ Neccesary\ for\ sorting\ in\ Poly\ class\n\ \n\ @returns\ int\ -\ 1\ if\ object\ (monomial)\ passed\ through\ is\ of\ lower\ exponent\ and\ \n\ -1\ if\ it\ is\ of\ higher\ exponent\ than\ the\ monomial\ being\ compared\ to.\n
+numComments=5
